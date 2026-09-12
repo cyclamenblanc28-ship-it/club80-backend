@@ -11,7 +11,7 @@ app.use(cors());
 app.use(express.json());
 
 // Connexion / Création de la base de données SQLite
-const dbPath = path.resolve(__dirname, 'club80.db');
+const dbPath = path.resolve(__dirname, 'club80_v2.db');
 const db = new sqlite3.Database(dbPath, (err) => {
   if (err) {
     console.error('Erreur lors de la connexion à SQLite :', err.message);
