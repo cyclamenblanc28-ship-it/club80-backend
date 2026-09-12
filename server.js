@@ -135,10 +135,5 @@ app.get('/', (req, res) => {
 
 // Démarrage du serveur
 app.listen(PORT, () => {
-  console.log(`Serveur V2 démarré sur http://localhost:${PORT}`);
-});
-});
-
-app.listen(PORT, () => {
-  console.log(`Serveur V2 démarré sur http://localhost:${PORT}`);
+  console.log(`Serveur V2 démarré sur le port ${PORT}`);
 });
