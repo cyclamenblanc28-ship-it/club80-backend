@@ -1,0 +1,14 @@
+{
+  "name": "club80-v2",
+  "version": "2.0.0",
+  "description": "Réseau social à admission sélective (80%)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "sqlite3": "^5.1.6"
+  }
+}
